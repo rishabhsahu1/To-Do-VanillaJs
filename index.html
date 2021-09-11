@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <h2>Work To Be Done</h2>
+      <input type="text" id="text" />
+      <button type="button" id="button" class="button" onclick="myfunction()">
+        Submit
+      </button>
+      <ul id="list"></ul>
+      <div id="buttons">
+        <button type="button" id="all" class="button" onclick="alltask()">
+          All
+        </button>
+        <button type="button" id="active" class="button" onclick="active()">
+          Active
+        </button>
+        <button
+          type="button"
+          id="completed"
+          class="button"
+          onclick="completed()"
+        >
+          Completed
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
